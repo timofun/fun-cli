@@ -1,10 +1,4 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error fatal: unable to access 'https://github.com/timofun/fun-cli.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
-15 error error: Could not fetch origin
-15 error Fetching origin
-15 error     at makeError (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
-15 error     at Function.module.exports.sync (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js:194:17)
-15 error     at Object.execSync (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/@lerna+child-process@4.0.0/node_modules/@lerna/child-process/index.js:39:16)
-15 error     at updateRemote (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/@lerna+version@4.0.0/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/@lerna+version@4.0.0/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/@lerna+version@4.0.0/node_modules/@lerna/version/index.js:153:9)
+47 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+47 error fatal: unable to access 'https://github.com/timofun/fun-cli.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+47 error     at makeError (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
+47 error     at handlePromise (/Users/timofun/Documents/project/project-cli/fun-cli-dev/node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js:118:26)
