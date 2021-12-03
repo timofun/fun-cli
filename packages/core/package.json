@@ -1,6 +1,6 @@
 {
   "name": "@fun-cli/core",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "fun-cli core",
   "author": "fanqingyu <timo_quiet@163.com>",
   "homepage": "",
@@ -17,6 +17,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@fun-cli/utils": "^1.0.0"
+    "@fun-cli/utils": "^0.0.1"
   }
 }
