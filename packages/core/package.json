@@ -17,7 +17,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@fun-cli/utils": "^0.0.2"
+    "@fun-cli/utils": "^1.0.0"
   },
   "publishConfig": {
     "access": "public"
